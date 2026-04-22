@@ -11,9 +11,30 @@ int main(void){
     char select2 = 'r';
     //variables for Dr.Pepper
     float price3 = 25.59;
-    int quantity3 = 11
+    int quantity3 = 11;
+    char quantity3 = 'p';
     //print stock of vending machine
-    printf
+    printf("vending machine stock\n");
+    printf("--------------------------\n");
+    printf("item name:snickers\n");
+    printf("price = %f \n" , price1);
+    printf("quantity = %d \n" , quantity1);
+    printf("char = %c \n" , select1);
 
-printf("item name:snickers/n");
+    printf("-------------------------\n");
+    printf("item name :reese's\n");
+    printf("price = %f \n", price2);
+    printf(" quantity = %d \n", quantity2);
+    printf("char = %c \n", select2);
+
+    printf("-------------------------\n");
+    printf("item name : Dr. Pepper\n");
+    printf("price = %f \n", price3);
+    printf("quantity = %d \n", quantity3);
+    printf("char = %c \n", char3);
+
+
+
+
+
 }
