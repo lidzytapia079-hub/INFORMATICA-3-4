@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void){
-    int with;
-    int height;
-    printf(int %d)
+    int width;
+    int length;
+    printf("Enter lenght of the recttangle)
     int area=with*height
