@@ -18,6 +18,7 @@ int main(void){
     int runtime2=minutes%60;
     int endtime= start time +runtime;
     int endtime2= start time +runtime2;
-    printf("the run time)
+    printf("the run time  of the movie is %d hours and %d minutes\n" , runtime , runtime2);
+    printf("you will finish the movie at %d:%d\n, endtime,endtime2);
     }
 

@@ -1,0 +1,7 @@
+float  minutes;
+    float  hours;
+    printf("Enter the number of minutes:\n");
+    scanf("%f", &minutes);
+     hours =(minutes)/60;
+     minutes = minutes (%60);
+    printf(" hours =%f\n", hours);
