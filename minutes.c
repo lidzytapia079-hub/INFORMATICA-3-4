@@ -3,17 +3,23 @@
 int main(void){
 
     int minutes ;
-    int starttime;
+
     printf("Enter the run time of the movie in minutes:\n");
     scanf("%d", &minutes);
-    printf("Enter the time you start the movie:\n");
-    scanf("%d", &starttime);
-    printf("\n");
-    int runtime= minutes/60;
-    int runtime2=minutes%60;
-    int endtime= starttime +runtime;
-    int endtime2= starttime +runtime2;
-    printf("the run time  of the movie is %d hours and %d minutes\n" , runtime , runtime2);
-    printf("you will finish the movie at %d:%d\n", endtime,endtime2);
+
+    int start_h;
+    int start_m;
+    printf("start time :");
+    scanf("%d:%d", &start_h, &start_m);
+
+
+    int hours= minutes/60;
+    int minutes=minutes%60;
+
+    int endtime_h= start_h +hours;
+    int endtime_m= start_m+minutes;
+
+    printf("the movie will last %d hours and %d minutes\n" ,  hours, minutes);
+    printf("end time: %d:%d\n", endtime_h,endtime_m);
     }
 
