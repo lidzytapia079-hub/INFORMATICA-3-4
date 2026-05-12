@@ -12,8 +12,13 @@ printf("enter your option:");
 int user_response;
 scanf("%d", &user_response);
 
-if(user response==1){
-//
+if(user_response==1){
+//3.call
+c_to_f();
+} else if(user_response==2){
+    f_to_c();
+} else {
+printf("invalid option\n");
 }
 }
 
