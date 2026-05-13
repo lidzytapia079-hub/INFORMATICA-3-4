@@ -19,10 +19,14 @@ int main(void){
     if (user_response == 1){
         add();
     } else if (user_response == 2){
-
+        substract();
     } else if (user_response==3){
-    } else if (user_response==4)
+        divide();
+    } else if (user_response==4){
+        multiply();
+    }
     else {
+    
         printf("Invalid Response");
     }
 
